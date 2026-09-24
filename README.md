@@ -13,9 +13,9 @@ All your data stays securely in your browser's local storage. No backends, no da
 
 ## Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=YOUR_GITHUB_REPO_URL)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/alexeyf1rst/vibes-crm)
 
-*(Note: Replace `YOUR_GITHUB_REPO_URL` in this README with your actual GitHub repository URL once pushed).*
+*(Note: Replace `https://github.com/alexeyf1rst/vibes-crm` in this README with your actual GitHub repository URL once pushed).*
 
 ## Usage
 Simply open `index.html` in any modern browser or host it anywhere (Netlify, Vercel, GitHub Pages).
