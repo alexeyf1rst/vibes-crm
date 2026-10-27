@@ -53,6 +53,13 @@
             border: 1px solid rgba(255, 255, 255, 0.08);
         }
     </style>
+<style id="nld-developer-credit-style">
+footer:has(>.nld-developer-credit){flex-wrap:wrap}
+.nld-developer-credit{box-sizing:border-box;display:block;width:100%;flex:0 0 100%;grid-column:1/-1;clear:both;margin:20px 0 0;padding:16px 12px;text-align:center;font:500 11px/1.5 system-ui,sans-serif;letter-spacing:.02em;color:inherit}
+.nld-developer-credit a{color:inherit!important;font:inherit!important;text-decoration:none;text-underline-offset:4px;opacity:.8}
+.nld-developer-credit a:hover{opacity:1;text-decoration:underline}
+.nld-developer-credit a:focus-visible{outline:2px solid currentColor;outline-offset:4px}
+</style>
 </head>
 <body class="bg-[#050505] text-gray-300 min-h-screen selection:bg-white/20 overflow-x-hidden">
 
@@ -251,5 +258,6 @@
             document.body.removeChild(link);
         }
     </script>
+<div class="nld-developer-credit"><a href="https://nextleveldigital.site/" target="_blank" rel="noopener noreferrer">Разработано Next Level Digital <span aria-hidden="true">↗</span></a></div>
 </body>
 </html>
